@@ -1,0 +1,14 @@
+<ul>
+  <li ng-repeat="img in imgs" class="col">
+    <figure ng-click="photoClick()">
+      <img src="{{ img.thumbnaillink }}">
+    </figure>
+  </li>
+</ul>
+<div class="lightbox {{lClass}}">
+  <figure>
+    <img id="lightbox-img" src="imgs/empty.svg" data-echo ="{{lightbox.img}}">
+    <figcaption>{{ lightbox.caption }}</figcaption>
+  </figure>
+  <button ng-click="toggleClick()">Close</button>
+</div>

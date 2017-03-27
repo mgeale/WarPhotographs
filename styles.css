@@ -1,0 +1,40 @@
+.col {
+  float: left;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.drawing-caption {
+  font-size: 12px;
+  text-align: center;
+}
+
+.lightbox {
+  position: fixed;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: none;
+  background: rgba(0,0,0, 0.7);
+}
+
+.lightbox.open {
+  display: block;
+}
+
+.lightbox img {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  max-height: 80vh;
+}
+
+.lightbox figcaption {
+  color: #fff;
+  text-align: center;
+}

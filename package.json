@@ -1,0 +1,11 @@
+{
+  "name": "naturalhistorydrawings",
+  "version": "1.0.0",
+  "description": "Album of watercolour drawings of Australian natural history, owned by Robert Anderson Seton, ca.1800",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
