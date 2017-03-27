@@ -31,7 +31,7 @@ app.controller('mainController', function($scope, $http, $location) {
 
   $scope.toggleClick = function() {
     toggleClass();
-    lightboxImg.src = 'images/empty.svg';
+    lightboxImg.src = 'imgs/empty.svg';
   }
 
 });
