@@ -1,10 +1,9 @@
-.col {
-  float: left;
-  box-sizing: border-box;
+li {
+  height: 180px;
 }
 
-ul {
-  list-style-type: none;
+img {
+  margin: auto;
 }
 
 .drawing-caption {
