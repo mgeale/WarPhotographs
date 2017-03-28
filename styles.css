@@ -1,9 +1,5 @@
-li {
+.photos {
   height: 180px;
-}
-
-img {
-  margin: auto;
 }
 
 .drawing-caption {
@@ -29,6 +25,7 @@ img {
 .lightbox img {
   display: block;
   margin: auto;
+  padding: 15px;
   max-width: 100%;
   max-height: 80vh;
 }

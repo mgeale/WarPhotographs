@@ -1,14 +1,14 @@
 <ul class="list-unstyled list-inline row">
-  <li ng-repeat="img in imgs" class="col-xs-6 col-sm-3 col-md-6 col-lg-4">
-    <figure ng-click="photoClick()">
+  <li ng-repeat="img in imgs" class="col-xs-6 col-sm-3 col-md-6 col-lg-4 photos">
+    <figure ng-click="photoClick()" class="thumbnail">
       <img src="{{ img.thumbnaillink }}" class="img-responsive">
     </figure>
   </li>
 </ul>
 <div class="lightbox {{lClass}}">
+  <button type="button" class="btn close" ng-click="toggleClick()"><span>&times;</span></button>
   <figure>
     <img id="lightbox-img" src="imgs/empty.svg" data-echo ="{{lightbox.img}}">
     <figcaption>{{ lightbox.caption }}</figcaption>
   </figure>
-  <button type="button" class="btn" ng-click="toggleClick()">Close</button>
 </div>
