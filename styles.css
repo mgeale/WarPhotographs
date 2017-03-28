@@ -37,6 +37,14 @@
   font-size: initial;
 }
 
+.lightbox p {
+  /*margin: 20%;*/
+  color: #fff;
+  text-align: center;
+  font-family: fantasy;
+  font-size: initial;
+}
+
 .thumbnail {
   border: 0px !important;
 }
@@ -45,5 +53,5 @@ button.btn.close {
   padding-right: 14px;
   font-size: 30px;
   color: white;
-  opacity: 0.4;
+  opacity: 0.2;
 }
