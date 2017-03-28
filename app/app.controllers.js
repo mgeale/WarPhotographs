@@ -31,7 +31,7 @@ app.controller('mainController', function($scope, $http, $location) {
 
   $scope.introClick = function() {
     $scope.lightbox = {
-      p: "<h1>Introduction</h1><br>In 1917 James Francis Hurley (1885-1962) became the first offical photographer to the Australian Imperial Forces. When he arrived at the Western Front his rank was honorary captain, but the troops, seeing how he took risks to get his pictures, dubbed him “the mad photographer”."
+      p: ""
     }
     toggleClass();
   }
