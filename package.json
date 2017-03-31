@@ -1,11 +1,16 @@
 {
-  "name": "naturalhistorydrawings",
+  "name": "warphotographs",
   "version": "1.0.0",
-  "description": "Album of watercolour drawings of Australian natural history, owned by Robert Anderson Seton, ca.1800",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "",
+  "main": "",
+  "scripts": {},
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-route": "^1.6.4",
+    "bootstrap": "^3.3.7",
+    "echo-js": "^1.7.3",
+    "jquery": "^3.2.1"
+  }
 }

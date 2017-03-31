@@ -1,0 +1,19 @@
+.photos {
+  height: 180px;
+}
+
+.drawing-caption {
+  font-size: 12px;
+  text-align: center;
+}
+
+.thumbnail {
+  border: 0px !important;
+}
+
+button.btn.close {
+  padding-right: 14px;
+  font-size: 30px;
+  color: white;
+  opacity: 0.2;
+}
