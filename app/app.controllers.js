@@ -1,5 +1,9 @@
 app.controller('mainController', function($scope, $http) {
 
+});
+
+app.controller('imageController', function($scope, $http) {
+
   $http.get('data/warphotographs.data.json')
   .then(function(response) {
     $scope.imgs = response.data;
@@ -31,9 +35,7 @@ app.controller('mainController', function($scope, $http) {
 
   $scope.toggleClick = function() {
     toggleClass();
-    console.log(lightboxImg);
     lightboxImg.src = 'imgs/empty.svg';
-    console.log("clicked");
   }
 
 });

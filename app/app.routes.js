@@ -4,7 +4,8 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
 
   $routeProvider.
     when('/', {
-      templateUrl: 'app/body.html'
+      templateUrl: 'app/body.html',
+      controller: 'imageController'
     });
 
 }]);
