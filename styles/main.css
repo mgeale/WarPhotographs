@@ -1,3 +1,7 @@
+body {
+  padding-top: 70px;
+}
+
 .photos {
   height: 180px;
 }
@@ -18,6 +22,29 @@ button.btn.close {
   opacity: 0.2;
 }
 
-.navigation {
-  margin-top: 2px;
+.navbar {
+  z-index: 50;
 }
+
+.biography {
+  position: relative;
+}
+
+.thumbnails {
+  position: relative;
+  float: right;
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .biography {
+    position: fixed;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }

@@ -13,19 +13,18 @@
     <div class="container" ng-controller="mainController">
 
       <!-- navigation -->
-      <header class="navigation">
+      <header>
         <div ng-include="'app/nav.html'"></div>
       </header>
 
       <!-- main -->
       <main class="row">
         <!-- biography -->
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 biography">
           <div ng-include="'app/bio.html'"></div>
         </div>
         <!-- photographs -->
-        <div ng-view class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-        </div>
+        <div ng-view class="col-xs-12 col-sm-12 col-md-6 col-lg-6 thumbnails"></div>
       </main>
 
       <!-- footer -->
