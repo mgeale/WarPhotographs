@@ -21,14 +21,9 @@
   max-height: 80vh;
 }
 
-.lightbox .lbFont {
+.lightbox figcaption {
   color: #fff;
   text-align: center;
   font-family: fantasy;
   font-size: initial;
-}
-
-.lightbox section {
-  margin: 2% auto;
-  padding: 15px;
 }

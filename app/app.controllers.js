@@ -1,14 +1,14 @@
-app.controller('mainController', function($scope) {
+app.controller('mainController', function($scope, $rootScope) {
 
-  $scope.lClass2 = 'close';
+  $scope.testToggle = function() {
 
-  $scope.toggleCheck = function() {
-    if ($scope.lClass2 == 'open') {
-      $scope.lClass2 = 'close';
-    } else {
-      $scope.lClass2 = 'open';
-    }
+    $rootScope.$broadcast()
+
   }
+
+});
+
+app.controller('navController', function($scope) {
 
 });
 
