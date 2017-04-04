@@ -21,16 +21,14 @@
   max-height: 80vh;
 }
 
-.lightbox figcaption {
+.lightbox .lbFont {
   color: #fff;
   text-align: center;
   font-family: fantasy;
   font-size: initial;
 }
 
-.lightbox p {
-  color: #fff;
-  text-align: center;
-  font-family: fantasy;
-  font-size: initial;
+.lightbox section {
+  margin: 2% auto;
+  padding: 15px;
 }

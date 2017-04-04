@@ -26,7 +26,7 @@ button.btn.close {
   z-index: 50;
 }
 
-.biography {
+.leftside {
   position: relative;
 }
 
@@ -41,7 +41,7 @@ button.btn.close {
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-  .biography {
+  .leftside {
     position: fixed;
   }
 }

@@ -1,4 +1,14 @@
-app.controller('mainController', function($scope, $http) {
+app.controller('mainController', function($scope) {
+
+  $scope.lClass2 = 'close';
+
+  $scope.toggleCheck = function() {
+    if ($scope.lClass2 == 'open') {
+      $scope.lClass2 = 'close';
+    } else {
+      $scope.lClass2 = 'open';
+    }
+  }
 
 });
 
