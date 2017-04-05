@@ -1,8 +1,8 @@
 <div class="lightbox {{lClass}}">
   <button type="button" class="btn close" ng-click="toggleClick()"><span>&times;</span></button>
-  <div ng-include="'app/bio.html'" ng-hide={{bioHide}}></div>
-  <figure ng-hide={{photoHide}}>
+  <div ng-include="'app/bio.html'" ng-hide="{{bioHide}}"></div>
+  <figure ng-hide="{{photoHide}}">
     <img id="lightbox-img" src="imgs/empty.svg" data-echo ="{{photo.img}}">
-    <figcaption id="lightbox-cap">{{photo.caption}}</figcaption>
+    <figcaption>{{photo.caption}}</figcaption>
   </figure>
 </div>

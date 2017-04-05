@@ -1,13 +1,16 @@
-app.controller('mainController', function($scope, $http) {
+app.controller('mainController', function($scope, $http, $timeout) {
 
   $http.get('data/warphotographs.data.json')
   .then(function(response) {
     $scope.imgs = response.data;
   });
 
-  var lightboxImg, lightboxCap;
-  lightboxImg = document.getElementById('lightbox-img');
-  lightboxCap = document.getElementById('lightbox-cap');
+  var lightboxImg;
+
+  $timeout(function() {
+    lightboxImg = document.getElementById('lightbox-img');
+  }, 50);
+
 
   $scope.lClass = 'close';
 
@@ -19,8 +22,10 @@ app.controller('mainController', function($scope, $http) {
     }
   }
 
-  $scope.photoHide = 'false';
-  $scope.bioHide = 'true';
+  $scope.photoHide = 'true';
+  $scope.bioHide = 'false';
+  console.log("photoHide " + $scope.photoHide);
+  console.log("bioHide " + $scope.bioHide);
 
   $scope.photoClick = function() {
     $scope.photo = {
@@ -31,6 +36,7 @@ app.controller('mainController', function($scope, $http) {
     var delay = setTimeout(function() {
       echo.init();
     }, 0);
+
   }
 
   $scope.introClick = function() {
@@ -40,7 +46,7 @@ app.controller('mainController', function($scope, $http) {
 
   $scope.toggleClick = function() {
     $scope.toggleClass();
-    // lightboxImg.src = 'imgs/empty.svg';
+    lightboxImg.src = 'imgs/empty.svg';
     // $scope.photoHide = 'true';
     // $scope.bioHide = 'true';
   }
