@@ -22,9 +22,13 @@ app.controller('mainController', function($scope, $http, $timeout) {
     }
   }
 
-  $scope.photoHide = true;
-  $scope.bioHide = true;
-  $scope.aboutHide = true;
+  $scope.hideElements = function() {
+    $scope.photoHide = true;
+    $scope.bioHide = true;
+    $scope.aboutHide = true;
+  }
+
+  $scope.hideElements();
 
   $scope.photoClick = function() {
     $scope.photo = {
@@ -51,21 +55,7 @@ app.controller('mainController', function($scope, $http, $timeout) {
   $scope.toggleClick = function() {
     $scope.toggleClass();
     lightboxImg.src = 'imgs/empty.svg';
-    if ($scope.photoHide = false) {
-      $scope.photoHide = true;
-    } else {
-      $scope.photoHide = true;
-    }
-    if ($scope.bioHide = false) {
-      $scope.bioHide = true;
-    } else {
-      $scope.bioHide = true;
-    }
-    if ($scope.aboutHide = false) {
-      $scope.aboutHide = true;
-    } else {
-      $scope.aboutHide = true;
-    }
+    $scope.hideElements();
   }
 
 });
