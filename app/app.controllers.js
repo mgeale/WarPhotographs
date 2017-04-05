@@ -22,10 +22,8 @@ app.controller('mainController', function($scope, $http, $timeout) {
     }
   }
 
-  $scope.photoHide = 'true';
-  $scope.bioHide = 'false';
-  console.log("photoHide " + $scope.photoHide);
-  console.log("bioHide " + $scope.bioHide);
+  $scope.photoHide = true;
+  $scope.bioHide = true;
 
   $scope.photoClick = function() {
     $scope.photo = {
@@ -36,19 +34,27 @@ app.controller('mainController', function($scope, $http, $timeout) {
     var delay = setTimeout(function() {
       echo.init();
     }, 0);
-
+    $scope.photoHide = false;
   }
 
   $scope.introClick = function() {
     $scope.toggleClass();
-    // $scope.bioHide = 'false';
+    $scope.bioHide = false;
   }
 
   $scope.toggleClick = function() {
     $scope.toggleClass();
     lightboxImg.src = 'imgs/empty.svg';
-    // $scope.photoHide = 'true';
-    // $scope.bioHide = 'true';
+    if ($scope.photoHide = false) {
+      $scope.photoHide = true;
+    } else {
+      $scope.photoHide = true;
+    }
+    if ($scope.bioHide = false) {
+      $scope.bioHide = true;
+    } else {
+      $scope.bioHide = true;
+    }
   }
 
 });

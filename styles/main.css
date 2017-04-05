@@ -35,16 +35,18 @@ button.btn.close {
   float: right;
 }
 
+.biography {
+  background-color: white;
+  opacity: 0.8;
+}
 
-/* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm-min) { ... }
 
-/* Medium devices (desktops, 992px and up) */
+@media (min-width: 768px) { ... }
+
 @media (min-width: 992px) {
   .leftside {
     position: fixed;
   }
 }
 
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg-min) { ... }
+@media (min-width: 1200px) { ... }
