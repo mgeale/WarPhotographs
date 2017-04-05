@@ -1,30 +1,17 @@
-app.controller('mainController', function($scope, $rootScope) {
-
-  $scope.testToggle = function() {
-
-    $rootScope.$broadcast()
-
-  }
-
-});
-
-app.controller('navController', function($scope) {
-
-});
-
-app.controller('imageController', function($scope, $http) {
+app.controller('mainController', function($scope, $http) {
 
   $http.get('data/warphotographs.data.json')
   .then(function(response) {
     $scope.imgs = response.data;
   });
 
-  var lightboxImg;
+  var lightboxImg, lightboxCap;
   lightboxImg = document.getElementById('lightbox-img');
+  lightboxCap = document.getElementById('lightbox-cap');
 
   $scope.lClass = 'close';
 
-  var toggleClass = function() {
+  $scope.toggleClass = function() {
     if ($scope.lClass == 'open') {
       $scope.lClass = 'close';
     } else {
@@ -32,20 +19,30 @@ app.controller('imageController', function($scope, $http) {
     }
   }
 
+  $scope.photoHide = 'false';
+  $scope.bioHide = 'true';
+
   $scope.photoClick = function() {
-    $scope.lightbox = {
+    $scope.photo = {
       img: this.img.highreslink,
       caption: this.img.caption
     }
-    toggleClass();
+    $scope.toggleClass();
     var delay = setTimeout(function() {
       echo.init();
     }, 0);
   }
 
+  $scope.introClick = function() {
+    $scope.toggleClass();
+    // $scope.bioHide = 'false';
+  }
+
   $scope.toggleClick = function() {
-    toggleClass();
-    lightboxImg.src = 'imgs/empty.svg';
+    $scope.toggleClass();
+    // lightboxImg.src = 'imgs/empty.svg';
+    // $scope.photoHide = 'true';
+    // $scope.bioHide = 'true';
   }
 
 });
