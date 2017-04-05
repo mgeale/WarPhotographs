@@ -35,9 +35,12 @@ button.btn.close {
   float: right;
 }
 
-.biography {
+.card {
+  border-radius: 10px;
   background-color: white;
   opacity: 0.8;
+  margin: 15px;
+  padding: 15px;
 }
 
 

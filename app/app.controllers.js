@@ -24,6 +24,7 @@ app.controller('mainController', function($scope, $http, $timeout) {
 
   $scope.photoHide = true;
   $scope.bioHide = true;
+  $scope.aboutHide = true;
 
   $scope.photoClick = function() {
     $scope.photo = {
@@ -42,6 +43,11 @@ app.controller('mainController', function($scope, $http, $timeout) {
     $scope.bioHide = false;
   }
 
+  $scope.aboutClick = function() {
+    $scope.toggleClass();
+    $scope.aboutHide = false;
+  }
+
   $scope.toggleClick = function() {
     $scope.toggleClass();
     lightboxImg.src = 'imgs/empty.svg';
@@ -54,6 +60,11 @@ app.controller('mainController', function($scope, $http, $timeout) {
       $scope.bioHide = true;
     } else {
       $scope.bioHide = true;
+    }
+    if ($scope.aboutHide = false) {
+      $scope.aboutHide = true;
+    } else {
+      $scope.aboutHide = true;
     }
   }
 
