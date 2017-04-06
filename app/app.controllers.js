@@ -33,7 +33,10 @@ app.controller('mainController', function($scope, $http, $timeout) {
   $scope.photoClick = function() {
     $scope.photo = {
       img: this.img.highreslink,
-      caption: this.img.caption
+      caption: this.img.caption,
+      theatre: this.img.theatre,
+      battle: this.img.battle,
+      region: this.img.region
     }
     $scope.toggleClass();
     var delay = setTimeout(function() {
