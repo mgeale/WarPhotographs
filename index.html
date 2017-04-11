@@ -10,6 +10,9 @@
 </head>
 <body>
 
+  <!-- side nav -->
+  <a href="#" data-activates="slide-out" class="button-collapse btn-floating btn-small red"><i class="material-icons">menu</i></a>
+
     <div class="container" ng-controller="mainController">
 
       <!-- navigation -->
@@ -21,7 +24,7 @@
       <main class="row">
         <!-- leftside -->
         <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 leftside">
-          <h3>Major Battles</h3>
+          <h3>Search by battles</h3>
           <ul>
             <li>Battle of Gallipoli, 25 April 1915 – 9 January 1916</li>
             <li>Battle of Passchendaele, 31 July – 10 November 1917</li>
@@ -29,7 +32,15 @@
             <li>Battle of Broodseinde, 4 October 1917</li>
             <li>Battle of Polygon Wood, 26–27 September 1917</li>
           </ul>
-          <img ng-src="imgs/europe-map.svg" style="width:95%;">
+          <h3>Search by location</h3>
+          <ul>
+            <li>Flanders</li>
+            <li>Upper France</li>
+            <li>Palestine</li>
+            <li>Eygpt</li>
+            <li>Gallipoli</li>
+          </ul>
+          <!-- <img ng-src="imgs/europe-map.svg" style="width:95%;"> -->
         </div>
         <!-- photographs -->
         <div ng-view class="col-xs-12 col-sm-12 col-md-6 col-lg-6 thumbnails"></div>
