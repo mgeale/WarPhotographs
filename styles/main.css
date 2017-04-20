@@ -1,9 +1,12 @@
 body {
-  /*padding-top: 70px;*/
+  padding-top: 70px;
 }
 
 .photos {
   height: 180px;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .drawing-caption {
