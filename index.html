@@ -21,8 +21,9 @@
       <main class="row">
         <!-- leftside -->
         <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 leftside">
-          <img src="imgs/europe-map.svg" style="width:100%;">
-          <h3>Search by battles</h3>
+          <h3>By location</h3>
+          <div id="map" class="europe"></div>
+          <h3>By battles</h3>
           <ul>
             <li>Battle of Gallipoli, 25 April 1915 – 9 January 1916</li>
             <li>Battle of Passchendaele, 31 July – 10 November 1917</li>
@@ -30,15 +31,6 @@
             <li>Battle of Broodseinde, 4 October 1917</li>
             <li>Battle of Polygon Wood, 26–27 September 1917</li>
           </ul>
-          <h3>Search by location</h3>
-          <ul>
-            <li>Flanders</li>
-            <li>Upper France</li>
-            <li>Palestine</li>
-            <li>Eygpt</li>
-            <li>Gallipoli</li>
-          </ul>
-          <!-- <img ng-src="imgs/europe-map.svg" style="width:95%;"> -->
         </div>
         <!-- photographs -->
         <div ng-view class="col-xs-12 col-sm-12 col-md-6 col-lg-6 thumbnails"></div>
@@ -58,6 +50,11 @@
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- echo lazy loader -->
     <script src="node_modules/echo-js/dist/echo.min.js"></script>
+    <!-- Rapheal -->
+    <script src="scripts/rapheal.min.js"></script>
+    <script src="scripts/map.js"></script>
+
+    </script>
     <!-- app js -->
     <script src="app/app.modules.js"></script>
     <script src="app/app.routes.js"></script>
