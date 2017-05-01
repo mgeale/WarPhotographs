@@ -21,22 +21,14 @@
       <main class="row">
         <!-- leftside -->
         <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 leftside">
-          <h3>By location</h3>
-          <!-- <div id="map" class="europe"></div> -->
+          <h3>By location</h3><button ng-click="markerClick()">Reset</button>
           <img src="imgs/europe.svg" style="width:100%;" usemap="#map">
           <map name="map">
-            <area shape="rect" coords="80,20,230,160" href="#" alt="Western Front">
-            <area shape="react" coords="370,150,508,230" href="#" alt="Turkey">
-            <area shape="react" coords="360,260,475,355" href="#" alt="Middle East">
+            <area shape="rect" coords="80,20,230,160" alt="Flanders" ng-click="markerClick('Flanders')">
+            <area shape="react" coords="370,150,508,230" alt="Turkey" ng-click="markerClick('Gallipoli')">
+            <area shape="react" coords="360,260,475,355" alt="MiddleEast" ng-click="markerClick('MiddleEast')">
           </map>
-          <h3>By battles</h3>
-          <ul>
-            <li>Battle of Gallipoli, 25 April 1915 – 9 January 1916</li>
-            <li>Battle of Passchendaele, 31 July – 10 November 1917</li>
-            <li>Battle of the Menin Road Ridge, 20–26 September 1917</li>
-            <li>Battle of Broodseinde, 4 October 1917</li>
-            <li>Battle of Polygon Wood, 26–27 September 1917</li>
-          </ul>
+          <p>Western Front | Turkey | Middle East</p>
         </div>
         <!-- photographs -->
         <div ng-view class="col-xs-12 col-sm-12 col-md-6 col-lg-6 thumbnails"></div>
@@ -56,14 +48,11 @@
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- echo lazy loader -->
     <script src="node_modules/echo-js/dist/echo.min.js"></script>
-    <!-- Rapheal -->
-    <script src="scripts/rapheal.min.js"></script>
-    <script src="scripts/map.js"></script>
-
     </script>
     <!-- app js -->
     <script src="app/app.modules.js"></script>
     <script src="app/app.routes.js"></script>
+    <script src="app/app.filters.js"></script>
     <script src="app/app.controllers.js"></script>
 </body>
 </html>

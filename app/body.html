@@ -1,5 +1,5 @@
 <ul class="list-unstyled list-inline row">
-  <li ng-repeat="img in imgs" class="col-xs-6 col-sm-3 col-md-6 col-lg-4 photos">
+  <li ng-repeat="img in imgs | filter:{region: selectedMarker}" class="col-xs-6 col-sm-3 col-md-6 col-lg-4 photos">
     <figure ng-click="photoClick()" class="thumbnail">
       <img ng-src="{{img.thumbnaillink}}" class="img-responsive">
     </figure>

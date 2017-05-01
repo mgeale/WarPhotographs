@@ -11,6 +11,12 @@ app.controller('mainController', function($scope, $http, $timeout) {
     lightboxImg = document.getElementById('lightbox-img');
   }, 50);
 
+  $scope.markerClick = function(region) {
+    if (region === null) {
+      $scope.selectedMarker = null;
+    }
+    $scope.selectedMarker = region;
+  }
 
   $scope.lClass = 'close';
 

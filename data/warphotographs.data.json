@@ -896,7 +896,7 @@
     "highreslink": "http://acms.sl.nsw.gov.au/_DAMx/image/18/149/a479060h.jpg",
     "theatre": "Western Europe",
     "battle": "Battle of the Somme",
-    "region": "Upper France",
+    "region": "Flanders",
     "caption": "60. The interior of the Albert Cathedral"
 }, {
     "itemid": 423850,
@@ -911,7 +911,7 @@
     "highreslink": "http://acms.sl.nsw.gov.au/_DAMx/image/18/149/a479061h.jpg",
     "theatre": "Western Europe",
     "battle": "Battle of the Somme",
-    "region": "Upper France",
+    "region": "Flanders",
     "caption": "61. The famous leaning Madonna and Child at Albert"
 }, {
     "itemid": 423850,
@@ -1256,7 +1256,7 @@
     "highreslink": "http://acms.sl.nsw.gov.au/_DAMx/image/18/149/a479084h.jpg",
     "theatre": "Middle East",
     "battle": "",
-    "region": "Eygpt",
+    "region": "MiddleEast",
     "caption": "84. Changing guard.  The Citadel, Cairo"
 }, {
     "itemid": 423850,
@@ -1286,8 +1286,8 @@
     "highreslink": "http://acms.sl.nsw.gov.au/_DAMx/image/18/149/a479087h.jpg",
     "theatre": "Middle East",
     "battle": "",
-    "region": "Palestine",
-    "caption": "87. The advance through the desert with the A.L.H. in Palestine"
+    "region": "MiddleEast",
+    "caption": "87. The advance through the desert with the A.L.H. in MiddleEast"
 }, {
     "itemid": 423850,
     "title": "Exhibition of war photographs / taken by Capt. F. Hurley, August 1917- August 1918",
@@ -1361,7 +1361,7 @@
     "highreslink": "http://acms.sl.nsw.gov.au/_DAMx/image/18/149/a479092h.jpg",
     "theatre": "Middle East",
     "battle": "",
-    "region": "Palestine",
+    "region": "MiddleEast",
     "caption": "92. Ruins of the Grand Mosque, Gaza"
 }, {
     "itemid": 423850,
@@ -1376,7 +1376,7 @@
     "highreslink": "http://acms.sl.nsw.gov.au/_DAMx/image/18/149/a479093h.jpg",
     "theatre": "Middle East",
     "battle": "",
-    "region": "Palestine",
+    "region": "MiddleEast",
     "caption": "93. The interior ruins of the Grand Mosque, Gaza"
 }, {
     "itemid": 423850,
@@ -1391,8 +1391,8 @@
     "highreslink": "http://acms.sl.nsw.gov.au/_DAMx/image/18/149/a479094h.jpg",
     "theatre": "Middle East",
     "battle": "",
-    "region": "Palestine",
-    "caption": "94. \"Gibit Baksheesh.\"  A familiar scene in Palestine"
+    "region": "MiddleEast",
+    "caption": "94. \"Gibit Baksheesh.\"  A familiar scene in MiddleEast"
 }, {
     "itemid": 423850,
     "title": "Exhibition of war photographs / taken by Capt. F. Hurley, August 1917- August 1918",
@@ -1496,8 +1496,8 @@
     "highreslink": "http://acms.sl.nsw.gov.au/_DAMx/image/18/149/a479101h.jpg",
     "theatre": "Middle East",
     "battle": "",
-    "region": "Palestine",
-    "caption": "101. An outpost in Palestine"
+    "region": "MiddleEast",
+    "caption": "101. An outpost in MiddleEast"
 }, {
     "itemid": 423850,
     "title": "Exhibition of war photographs / taken by Capt. F. Hurley, August 1917- August 1918",
@@ -1556,8 +1556,8 @@
     "highreslink": "http://acms.sl.nsw.gov.au/_DAMx/image/18/149/a479106h.jpg",
     "theatre": "Middle East",
     "battle": "",
-    "region": "Palestine",
-    "caption": "106. A flight of bombing planes, 1st Australian Flying Corps, Palestine"
+    "region": "MiddleEast",
+    "caption": "106. A flight of bombing planes, 1st Australian Flying Corps, MiddleEast"
 }, {
     "itemid": 423850,
     "title": "Exhibition of war photographs / taken by Capt. F. Hurley, August 1917- August 1918",
@@ -1571,8 +1571,8 @@
     "highreslink": "http://acms.sl.nsw.gov.au/_DAMx/image/18/149/a479107h.jpg",
     "theatre": "Middle East",
     "battle": "",
-    "region": "Palestine",
-    "caption": "107. A machine descending to the Hangars of the 1st Australian Flying Corps, Palestine"
+    "region": "MiddleEast",
+    "caption": "107. A machine descending to the Hangars of the 1st Australian Flying Corps, MiddleEast"
 }, {
     "itemid": 423850,
     "title": "Exhibition of war photographs / taken by Capt. F. Hurley, August 1917- August 1918",
@@ -1601,7 +1601,7 @@
     "highreslink": "http://acms.sl.nsw.gov.au/_DAMx/image/18/149/a479109h.jpg",
     "theatre": "Middle East",
     "battle": "",
-    "region": "Palestine",
+    "region": "MiddleEast",
     "caption": "109. Aerial photograph showing the Turkish defences of Jerusalem"
 }, {
     "itemid": 423850,
@@ -1616,7 +1616,7 @@
     "highreslink": "http://acms.sl.nsw.gov.au/_DAMx/image/18/149/a479110h.jpg",
     "theatre": "Middle East",
     "battle": "",
-    "region": "Palestine",
+    "region": "MiddleEast",
     "caption": "110. Jerusalem from an aeroplane"
 }, {
     "itemid": 423850,
@@ -1631,7 +1631,7 @@
     "highreslink": "http://acms.sl.nsw.gov.au/_DAMx/image/18/149/a479111h.jpg",
     "theatre": "Middle East",
     "battle": "",
-    "region": "Palestine",
+    "region": "MiddleEast",
     "caption": "111. View of the Holy City from the Mount of Olives"
 }, {
     "itemid": 423850,
@@ -1646,7 +1646,7 @@
     "highreslink": "http://acms.sl.nsw.gov.au/_DAMx/image/18/149/a479112h.jpg",
     "theatre": "Middle East",
     "battle": "",
-    "region": "Palestine",
+    "region": "MiddleEast",
     "caption": "112. Australian Light Horsemen passing along the Bethlehem-Jerusalem Road"
 }, {
     "itemid": 423850,
@@ -1661,7 +1661,7 @@
     "highreslink": "http://acms.sl.nsw.gov.au/_DAMx/image/18/149/a479113h.jpg",
     "theatre": "Middle East",
     "battle": "",
-    "region": "Palestine",
+    "region": "MiddleEast",
     "caption": "113. A.L.H. watering horses on Mount Zion, Jerusalem"
 }, {
     "itemid": 423850,
@@ -1676,7 +1676,7 @@
     "highreslink": "http://acms.sl.nsw.gov.au/_DAMx/image/18/149/a479114h.jpg",
     "theatre": "Middle East",
     "battle": "",
-    "region": "Palestine",
+    "region": "MiddleEast",
     "caption": "114. The 1st Brigade A.L.H. passing through Bethlehem on their way to Jericho"
 }, {
     "itemid": 423850,
@@ -1691,7 +1691,7 @@
     "highreslink": "http://acms.sl.nsw.gov.au/_DAMx/image/18/149/a479115h.jpg",
     "theatre": "Middle East",
     "battle": "",
-    "region": "Palestine",
+    "region": "MiddleEast",
     "caption": "115. Australian Light Horse crossing the field, Bethlehem"
 }, {
     "itemid": 423850,
@@ -1706,7 +1706,7 @@
     "highreslink": "http://acms.sl.nsw.gov.au/_DAMx/image/18/149/a479116h.jpg",
     "theatre": "Middle East",
     "battle": "",
-    "region": "Palestine",
+    "region": "MiddleEast",
     "caption": "116. The Jordan Valley.  Jericho lies near the centre"
 }, {
     "itemid": 423850,
@@ -1721,7 +1721,7 @@
     "highreslink": "http://acms.sl.nsw.gov.au/_DAMx/image/18/149/a479117h.jpg",
     "theatre": "Middle East",
     "battle": "",
-    "region": "Palestine",
+    "region": "MiddleEast",
     "caption": "117. Camp at the foot of the Judaean Hills in the Jordan Valley, near Jericho"
 }, {
     "itemid": 423850,
@@ -1781,7 +1781,7 @@
     "highreslink": "http://acms.sl.nsw.gov.au/_DAMx/image/18/149/a479121h.jpg",
     "theatre": "Middle East",
     "battle": "",
-    "region": "Eygpt",
+    "region": "MiddleEast",
     "caption": "121. The entrance to a Mosque in Cairo"
 }, {
     "itemid": 423850,
@@ -1796,7 +1796,7 @@
     "highreslink": "http://acms.sl.nsw.gov.au/_DAMx/image/18/149/a479122h.jpg",
     "theatre": "Middle East",
     "battle": "",
-    "region": "Palestine",
+    "region": "MiddleEast",
     "caption": "122. Australian Light Horse Machine Gunners in action amongst the Judaean Hills"
 }, {
     "itemid": 423850,
@@ -1826,7 +1826,7 @@
     "highreslink": "http://acms.sl.nsw.gov.au/_DAMx/image/18/149/a479124h.jpg",
     "theatre": "Middle East",
     "battle": "",
-    "region": "Eygpt",
+    "region": "MiddleEast",
     "caption": "124. The Minarets of Cairo"
 }, {
     "itemid": 423850,
@@ -1841,7 +1841,7 @@
     "highreslink": "http://acms.sl.nsw.gov.au/_DAMx/image/18/149/a479125h.jpg",
     "theatre": "Middle East",
     "battle": "",
-    "region": "Palestine",
+    "region": "MiddleEast",
     "caption": "125. Infantry adancing through the Latron Gorge after the capture of Jerusalem"
 }, {
     "itemid": 423850,
@@ -1871,6 +1871,6 @@
     "highreslink": "http://acms.sl.nsw.gov.au/_DAMx/image/18/149/a479128h.jpg",
     "theatre": "Middle East",
     "battle": "",
-    "region": "Palestine",
-    "caption": "128. 1st Australian Flying Corps, Palestine"
+    "region": "MiddleEast",
+    "caption": "128. 1st Australian Flying Corps, MiddleEast"
 }]
