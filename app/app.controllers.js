@@ -30,7 +30,7 @@ app.controller('mainController', function($scope, $http, $timeout) {
 
   $scope.hideElements = function() {
     $scope.photoHide = true;
-    $scope.bioHide = true;
+    $scope.aboutHide = true;
   }
 
   $scope.hideElements();
@@ -52,7 +52,7 @@ app.controller('mainController', function($scope, $http, $timeout) {
 
   $scope.introClick = function() {
     $scope.toggleClass();
-    $scope.bioHide = false;
+    $scope.aboutHide = false;
   }
 
   $scope.toggleClick = function() {
