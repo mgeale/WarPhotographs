@@ -29,14 +29,14 @@
                 fill: none;
             }
             .fil0 {
-                fill: white;
+                fill: #eeeeee;
             }
             .fil5 {
                 fill: #C2C1C1;
                 fill-rule: nonzero;
             }
             .fil1 {
-                fill: white;
+                fill: #fafafa;
                 fill-rule: nonzero;
             }
             .fil4 {

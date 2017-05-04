@@ -28,11 +28,17 @@ button.btn.close {
 
 .navbar {
   z-index: 50;
+  background-color: currentColor;
+  border-color: #777
+}
+
+.navbar-brand {
+  /*font-size: 1.2em;*/
 }
 
 .leftside {
   position: relative;
-  background-color: #f8f8f8;
+  background-color: currentColor;
   border-radius: 5px;
   padding: 15px;
   opacity: 0.9;
