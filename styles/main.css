@@ -16,6 +16,7 @@ body {
 
 .thumbnail {
   border: 0px !important;
+  background-color: transparent !important;
 }
 
 button.btn.close {
@@ -31,6 +32,14 @@ button.btn.close {
 
 .leftside {
   position: relative;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  padding: 15px;
+  opacity: 0.9;
+}
+
+.lead {
+  margin-bottom: 0px !important;
 }
 
 .thumbnails {
@@ -41,14 +50,26 @@ button.btn.close {
 .card {
   border-radius: 10px;
   background-color: white;
-  /*opacity: 0.8;*/
   margin: 15px;
   padding: 15px;
+}
+
+.pattern {
+  background-color: #6d695c;
+  background-image:
+  repeating-linear-gradient(120deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+  repeating-linear-gradient(60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+  linear-gradient(60deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)),
+  linear-gradient(120deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1));
+  background-size: 70px 120px;
 }
 
 
 @media (max-width: 768px) {
   .leftside {
+    display: none;
+  }
+  .table {
     display: none;
   }
 }
