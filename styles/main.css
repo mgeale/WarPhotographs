@@ -2,6 +2,19 @@ body {
   padding-top: 70px;
 }
 
+.reset:hover {
+  color: #dddddd;
+  border:solid 1px #dddddd;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #dddddd;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+  color: #777;
+}
+
 .photos {
   height: 180px;
   display: flex !important;
@@ -33,7 +46,7 @@ button.btn.close {
 }
 
 .navbar-brand {
-  /*font-size: 1.2em;*/
+  font-size: 1.2em;
 }
 
 .leftside {
@@ -42,6 +55,12 @@ button.btn.close {
   border-radius: 5px;
   padding: 15px;
   opacity: 0.9;
+}
+
+.reset {
+  float:right;
+  background-color:transparent;
+  border:solid 1px #777;
 }
 
 .lead {
