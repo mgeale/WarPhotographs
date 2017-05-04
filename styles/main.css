@@ -47,7 +47,11 @@ button.btn.close {
 }
 
 
-@media (min-width: 768px) { ... }
+@media (max-width: 768px) {
+  .leftside {
+    display: none;
+  }
+}
 
 @media (min-width: 992px) {
   .leftside {

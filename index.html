@@ -16,6 +16,7 @@
       <header>
         <div ng-include="'app/nav.html'"></div>
       </header>
+      <h1 style="text-align:center;">Australian Imperial Forces - World War 1</h1>
 
       <!-- main -->
       <main class="row">
@@ -28,7 +29,7 @@
             <area shape="react" coords="370,150,508,230" alt="Turkey" ng-click="markerClick('Gallipoli')">
             <area shape="react" coords="360,260,475,355" alt="MiddleEast" ng-click="markerClick('MiddleEast')">
           </map>
-          <button type="button" class="btn" style="float:right; margin-right:17px;" ng-click="markerClick()"><span>Reset</span></button>
+          <button type="button" class="btn" style="float:right; margin-right:17px; background-color:transparent; border:solid 1px #e7e7e7;" ng-click="markerClick()"><span>Reset</span></button>
         </div>
         <!-- photographs -->
         <div ng-view class="col-xs-12 col-sm-12 col-md-6 col-lg-6 thumbnails"></div>

@@ -27,3 +27,14 @@
   font-family: fantasy;
   font-size: initial;
 }
+
+.lightbox figure {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  max-width: 90vw;
+  display: block;
+  margin: auto;
+}
