@@ -1,6 +1,6 @@
-# Exhibition of war photographs
+# Exhibition of War Photographs
 
-## Taken by Capt. F. Hurley, August 1917- August 1918
+### Taken by Capt. F. Hurley, August 1917- August 1918
 
 A few months after the Armistice of 11 November 1918 an exhibition took place in Sydney showcasing the photography of Capt. Frank Hurley, an official war photographer for the Australian Imperial Forces.
 
