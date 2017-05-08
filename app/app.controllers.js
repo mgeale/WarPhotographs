@@ -5,11 +5,7 @@ app.controller('mainController', function($scope, $http, $timeout) {
     $scope.imgs = response.data;
   });
 
-  var lightboxImg;
-
-  $timeout(function() {
-    lightboxImg = document.getElementById('lightbox-img');
-  }, 50);
+  var lightboxImg = document.getElementById('lightbox-img');
 
   $scope.markerClick = function(region) {
     if (region === null) {
@@ -57,6 +53,7 @@ app.controller('mainController', function($scope, $http, $timeout) {
 
   $scope.toggleClick = function() {
     $scope.toggleClass();
+    console.log(lightboxImg);
     lightboxImg.src = 'imgs/empty.svg';
     $scope.hideElements();
   }
