@@ -116,4 +116,8 @@ button.btn.close {
   }
 }
 
-@media (min-width: 1200px) { ... }
+@media (max-width:350px) {
+    .navbar-brand {
+      font-size: 15px;
+    }
+}

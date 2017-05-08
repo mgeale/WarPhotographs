@@ -53,7 +53,6 @@ app.controller('mainController', function($scope, $http, $timeout) {
 
   $scope.toggleClick = function() {
     $scope.toggleClass();
-    console.log(lightboxImg);
     lightboxImg.src = 'imgs/empty.svg';
     $scope.hideElements();
   }
