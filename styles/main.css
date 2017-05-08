@@ -102,6 +102,9 @@ button.btn.close {
   .leftside {
     display: none;
   }
+}
+
+@media (max-width: 740px) {
   .table {
     display: none;
   }
