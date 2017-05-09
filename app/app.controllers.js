@@ -1,4 +1,4 @@
-app.controller('mainController', function($scope, $http, $timeout) {
+app.controller('mainController', [ "$scope", "$http", "$timeout",function($scope, $http, $timeout) {
 
   $http.get('data/warphotographs.data.json')
   .then(function(response) {
@@ -57,4 +57,4 @@ app.controller('mainController', function($scope, $http, $timeout) {
     $scope.hideElements();
   }
 
-});
+}]);
