@@ -113,6 +113,7 @@ button.btn.close {
 @media (min-width: 992px) {
   .leftside {
     position: fixed;
+    max-width: 575px;
   }
 }
 
