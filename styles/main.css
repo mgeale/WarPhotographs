@@ -63,7 +63,7 @@ button.btn.close {
   border-radius: 5px;
   padding: 15px;
   opacity: 0.9;
-  max-width: 575px;
+  max-width: 565px;
   margin: auto;
 }
 
@@ -126,6 +126,6 @@ button.btn.close {
 
 @media (min-width: 992px) and (max-width: 1200px) {
   .leftside {
-      max-width: 500px;
+      max-width: 490px;
   }
 }
