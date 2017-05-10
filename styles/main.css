@@ -36,7 +36,7 @@ button.btn.close {
   padding-right: 14px;
   font-size: 30px;
   color: white;
-  opacity: 0.2;
+  opacity: 0.5;
 }
 
 .navbar {
@@ -63,6 +63,8 @@ button.btn.close {
   border-radius: 5px;
   padding: 15px;
   opacity: 0.9;
+  max-width: 575px;
+  margin: auto;
 }
 
 .reset {
@@ -113,7 +115,6 @@ button.btn.close {
 @media (min-width: 992px) {
   .leftside {
     position: fixed;
-    max-width: 575px;
   }
 }
 
@@ -121,4 +122,10 @@ button.btn.close {
     .navbar-brand {
       font-size: 15px;
     }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .leftside {
+      max-width: 500px;
+  }
 }
