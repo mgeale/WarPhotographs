@@ -100,7 +100,7 @@ button.btn.close {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .leftside {
     display: none;
   }
@@ -122,10 +122,4 @@ button.btn.close {
     .navbar-brand {
       font-size: 15px;
     }
-}
-
-@media (min-width: 992px) and (max-width: 1200px) {
-  .leftside {
-      max-width: 490px;
-  }
 }
